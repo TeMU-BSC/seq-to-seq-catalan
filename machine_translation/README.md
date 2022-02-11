@@ -22,7 +22,6 @@ The `multilingual_denoising` task requires monolingual data which is preprocesse
 
 ```
 sh training/preprocess-data.sh
-sh preprocess-test-data-0.10.2.sh
 ```
 
 ### Training
