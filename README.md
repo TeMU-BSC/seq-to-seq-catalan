@@ -5,7 +5,7 @@ In this work, we introduce sequence-to-sequence language resources for Catalan, 
 ## Materials
 
 We openly release the outcome materials produced in the framework of this publication:
-* [BART-base-ca](https://huggingface.co/projecte-aina/bart-base-ca)
+* [BART-base-ca](https://huggingface.co/projecte-aina/bart-base-ca), a BART-based Catalan language model
 
 ### Summarization
 * [CaSum](https://huggingface.co/datasets/projecte-aina/casum/), a Catalan abstrative summaritzation dataset
