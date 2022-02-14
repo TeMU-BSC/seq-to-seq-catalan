@@ -5,10 +5,16 @@ In this work, we introduce sequence-to-sequence language resources for Catalan, 
 ## Materials
 
 We openly release the outcome materials produced in the framework of this publication:
+* [BART-base-ca](https://huggingface.co/projecte-aina/bart-base-ca)
+
+### Summarization
 * [CaSum](https://huggingface.co/datasets/projecte-aina/casum/), a Catalan abstrative summaritzation dataset
 * [VilaSum](https://huggingface.co/datasets/projecte-aina/vilasum/), a Catalan abstrative summaritzation testsets
+* [BART-base-ca-casum](https://huggingface.co/projecte-aina/bart-base-ca-casum), a Catalan abstractive summarization model
+
+### Machine Translation (soon)
 * GEnCaTA, a Catalan-English high quality corpus for MT
-* Evaluation Resources
+* Evaluation Resources for Catalan-English MT
 
 ## Citation
 
