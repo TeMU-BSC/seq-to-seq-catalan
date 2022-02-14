@@ -23,8 +23,8 @@ Both the Catalan BART and mBART are fine-tuned with a CaSum dataset for approx. 
 ```
 sh finetuning/finetune-bart-ca.sh 
 sh finetuning/finetune-mbart-large-v1.sh
-
 ```
+
 ### Evaluating
 
 #### Generate BART and mBART summarizations
