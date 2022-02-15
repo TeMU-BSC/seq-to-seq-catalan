@@ -33,5 +33,5 @@ If you use any of these resources (datasets or models) in your work, please cite
 ## License
 MIT License
 
-Copyright (c) 2020 Text Mining Unit at BSC
+Copyright (c) 2022 Text Mining Unit at BSC
 
