@@ -17,7 +17,18 @@ We openly release the outcome materials produced in the framework of this public
 * Evaluation Resources for Catalan-English MT
 
 ## Citation
+If you use any of these resources (datasets or models) in your work, please cite our latest preprint:
 
+```bibtex
+@misc{degibert2022sequencetosequence,
+      title={Sequence-to-Sequence Resources for Catalan}, 
+      author={Ona de Gibert and Ksenia Kharitonova and Blanca Calvo Figueras and Jordi Armengol-Estapé and Maite Melero},
+      year={2022},
+      eprint={2202.06871},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ## License
 MIT License
