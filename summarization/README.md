@@ -38,11 +38,11 @@ sh evaluation/generate-mbart-large-v1-ft-catsum.sh
 #### Calculating ROUGE from results (BART Ca and mBART)
 
 ```
-python evulation/run_rouge.py
+python evaluation/run_rouge.py
 ```
 
 #### Generate and evaluate NASCA summarizations
 
 ```
-python evulation/evaluate_nasca.py
+python evaluation/evaluate_nasca.py
 ```
