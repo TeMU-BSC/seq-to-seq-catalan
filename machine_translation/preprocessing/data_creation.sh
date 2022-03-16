@@ -13,11 +13,11 @@ wc -l all_parallel_en-ca.en
 
 mkdir deduplicated
 
-python deduplicate.py
+python preprocessing/deduplicate.py
 
 mkdir clean
 
-python clean_train_test_overlap.py --train deduplicated/train.en deduplicated/train.ca --test all_parallel_test.en
+python preprocessing/clean_train_test_overlap.py --train deduplicated/train.en deduplicated/train.ca --test all_parallel_test.en
 
 cd clean
 
@@ -28,12 +28,12 @@ cd ..
 
 mkdir final
 
-python check_length.py --folder raw --out_folder raw --which_data train
-python check_length.py --folder clean --out_folder final --which_data valid 
+python preprocessing/check_length.py --folder raw --out_folder raw --which_data train
+python preprocessing/check_length.py --folder clean --out_folder final --which_data valid 
 
-python clean_train_test_overlap.py --train clean/train.en clean/train.ca --test final/valid/valid.en final/valid/valid.ca --folder final/
+python preprocessing/clean_train_test_overlap.py --train clean/train.en clean/train.ca --test final/valid/valid.en final/valid/valid.ca --folder final/
 
-python check_minimum_length_tokens.py
+python preprocessing/check_minimum_length_tokens.py
 
 rm all_parallel_test.en
 
