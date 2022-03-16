@@ -29,7 +29,7 @@ cd ..
 mkdir final
 
 python check_length.py --folder raw --out_folder raw --which_data train
-python check_length.py --folder clean --out_folder final --which_data valid # this will be wrong because the name of the valid is wrong in the previous step
+python check_length.py --folder clean --out_folder final --which_data valid 
 
 python clean_train_test_overlap.py --train clean/train.en clean/train.ca --test final/valid/valid.en final/valid/valid.ca --folder final/
 
