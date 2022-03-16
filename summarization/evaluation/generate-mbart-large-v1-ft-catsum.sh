@@ -1,5 +1,7 @@
 #!/bin/bash
 
+MODEL=mbart.cc25/sentence.bpe.model
+
 XSUM_KWARGS() {
  BEAM=6 
  LENPEN=1.0 
@@ -32,5 +34,7 @@ python $(which fairseq-generate) \
     --min-len $MIN_LEN \
     --no-repeat-ngram-size $NO_REPEAT_NGRAM_SIZE \
     --num-workers 128 \
-    --remove-bpe 'sentencepiece'
+    --bpe 'sentencepiece' \
+    --remove-bpe 'sentencepiece' \
+    --sentencepiece-model $MODEL
 
