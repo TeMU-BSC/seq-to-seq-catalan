@@ -2,6 +2,13 @@
 
 ### Preprocess
 
+#### Corpus creation
+
+```
+sh data_creation.sh
+```
+
+
 #### Train tokenizer
 ```
 python train_tokenizer.py
