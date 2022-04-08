@@ -7,20 +7,20 @@ Due to internal reasons we used different versions of `fairseq` during our resea
 #### Corpus creation
 
 ```
-sh data_creation.sh
+sh preprocessing/data_creation.sh
 ```
 
 
 #### Train tokenizer
 ```
-python train_tokenizer.py
+python preprocessing/train_tokenizer.py
 ```
 
 #### Tokenize
 
 ```
-sh encode-amd.sh
-sh test-encode-amd.sh
+sh preprocessing/encode-amd.sh
+sh preprocessing/test-encode-amd.sh
 ```
 
 #### Binarize and Index data
