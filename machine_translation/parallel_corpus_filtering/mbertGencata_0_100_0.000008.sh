@@ -92,4 +92,4 @@ export HF_HOME=$CACHE_DIR/$DIR_NAME/huggingface
 echo "lr:"
 echo $LEARN_RATE
 echo "train[${MIN_TRAIN_PERCENTAGE}%:${MAX_TRAIN_PERCENTAGE}%]"
-python /gpfs/projects/bsc88/projects/mt_qe/run_glue.py --seed $SEED $MODEL_ARGS $OUTPUT_ARGS
+python run_glue.py --seed $SEED $MODEL_ARGS $OUTPUT_ARGS
