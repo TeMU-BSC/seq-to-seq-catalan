@@ -59,6 +59,25 @@ The following example contains all the main generating parameters that used for 
 sh training/generate-mbart-ca-en-test-mtse-example.sh
 ```
 
+### Parallel corpus filtering
+
+#### Fine-tune mBERT
+
+We fine-tune both mBERT-cased and mBERT-uncased to explore the task of parallel corpus filtering with the GEnCaTa dataset. 
+
+```
+sh parallel_corpus_filtering/mbertGencata_0_100_0.000008.sh
+sh parallel_corpus_filtering/mbertUncasedGencata_0_100_0.000008.sh
+```
+
+#### Filter all the datasets
+
+Once we have obtained the best performing model, we filter all other datasets.
+
+```
+python parallel_corpus_filtering/filter_by_corpus.py
+```
+
 
 
 
